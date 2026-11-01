@@ -1,18 +1,7 @@
-# The upstream bundle is a frozen Python application (PyInstaller) with its
-# own libpython and extension modules under /usr/libexec/aws-cli, loaded
-# from that directory only and excluded from automatic library Provides.
-addFilter("E: missing-hash-section /usr/libexec/aws-cli/")
-addFilter("E: library-without-ldconfig-postin /usr/libexec/aws-cli/")
-addFilter("E: library-without-ldconfig-postun /usr/libexec/aws-cli/")
-addFilter("E: missing-call-to-setgroups-before-setuid /usr/libexec/aws-cli/")
-addFilter("W: binary-or-shlib-calls-gethostbyname /usr/libexec/aws-cli/")
-addFilter("W: position-independent-executable-suggested /usr/libexec/aws-cli/")
-addFilter("E: shlib-policy-name-error")
-addFilter("W: unstripped-binary-or-object /usr/libexec/aws-cli/")
-addFilter("W: shared-library-without-dependency-information /usr/libexec/aws-cli/")
-addFilter("E: statically-linked-binary /usr/libexec/aws-cli/")
-addFilter("W: python-bytecode-.* /usr/libexec/aws-cli/")
-addFilter("W: hidden-file-or-dir /usr/libexec/aws-cli/")
-addFilter("W: files-duplicate /usr/libexec/aws-cli/")
-# The RPM changelog lives in aws-cli-v2.changes, filled in by OBS at release time.
-addFilter("E: no-changelogname-tag")
+# The upstream bundle is a frozen Python application (PyInstaller) under
+# /usr/libexec/aws-cli: its own libpython, extension modules (two of them
+# carry upstream's build-time RUNPATH) and data files, loaded from that
+# directory only and excluded from automatic library Provides/Requires.
+addFilter(".* /usr/libexec/aws-cli/")
+addFilter("E: files-duplicated-waste")
+addFilter("W: python-missing-require")

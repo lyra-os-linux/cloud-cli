@@ -1,0 +1,7 @@
+-------------------------------------------------------------------
+Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Package Azure CLI 2.91.0 from the official PyPI wheels on the system
+  Python 3.13, every wheel pinned by SHA-256 in requirements.lock and
+  verified by pip at build time, with the /usr/lib64/az layout of
+  Microsoft's RPM.

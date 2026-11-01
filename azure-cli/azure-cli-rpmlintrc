@@ -1,0 +1,7 @@
+# /usr/lib64/az holds the CLI's vendored, hash-pinned wheels (as in
+# Microsoft's RPM), including their private extension modules. They are
+# not system libraries or system Python modules.
+addFilter(".* /usr/lib64/az/")
+addFilter("E: shlib-policy-name-error")
+# The RPM changelog lives in azure-cli.changes, filled in by OBS.
+addFilter("E: no-changelogname-tag")

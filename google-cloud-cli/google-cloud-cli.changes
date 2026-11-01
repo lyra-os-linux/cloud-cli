@@ -1,0 +1,6 @@
+-------------------------------------------------------------------
+Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Package Google Cloud CLI 591.0.0 from the official versioned Linux
+  archive, pinned by SHA-256, with the layout and package-manager mode of
+  Google's own RPM (updates through Zypper, not "gcloud components").

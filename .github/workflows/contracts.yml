@@ -1,0 +1,23 @@
+name: Packaging contracts
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install packaging validators
+        run: sudo apt-get update && sudo apt-get install -y rpm
+      - name: Test source and RPM contracts
+        run: |
+          python3 -m unittest discover -s tests -v
+          for spec in */*.spec; do rpmspec -P "$spec" >/dev/null; done
+          sh -n azure-cli/az
+          bash -n azure-cli/make-wheels.sh

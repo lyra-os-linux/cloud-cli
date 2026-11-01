@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">dl.google.com</param>
+    <param name="path">/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-591.0.0-linux-x86_64.tar.gz</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:google-cloud-cli-591.0.0-linux-x86_64.tar.gz</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">78c570f5fcfe58a9311bd98c06b75530595e3cae6277aad75a676a39e6ee7b63</param>
+  </service>
+</services>

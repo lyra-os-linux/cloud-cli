@@ -1,0 +1,5 @@
+#!/bin/sh
+# Azure CLI entry point, as in Microsoft's RPM: the CLI and its vendored
+# dependencies live in /usr/lib64/az, run by the system Python 3.13.
+# AZ_INSTALLER=RPM makes "az upgrade" point at the package manager.
+AZ_INSTALLER=RPM PYTHONPATH=/usr/lib64/az/lib exec /usr/bin/python3.13 -sm azure.cli "$@"

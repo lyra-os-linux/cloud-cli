@@ -1,0 +1,9 @@
+# The SDK under /usr/lib64/google-cloud-sdk is upstream's self-contained
+# tree: its own Python runtime, extension modules and vendored libraries,
+# laid out exactly as in Google's RPM. They are not system libraries or
+# system Python modules.
+addFilter(".* /usr/lib64/google-cloud-sdk/")
+addFilter("E: shlib-policy-name-error")
+addFilter("W: hidden-file-or-dir /usr/lib64/google-cloud-sdk/")
+# The RPM changelog lives in google-cloud-cli.changes, filled in by OBS.
+addFilter("E: no-changelogname-tag")

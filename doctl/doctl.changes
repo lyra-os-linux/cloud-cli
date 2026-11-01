@@ -1,0 +1,5 @@
+-------------------------------------------------------------------
+Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Package doctl 2.1.0 from the official GitHub release tarball, with
+  bash, zsh and fish completions generated at build time.

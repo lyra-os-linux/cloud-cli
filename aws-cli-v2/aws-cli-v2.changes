@@ -1,0 +1,6 @@
+-------------------------------------------------------------------
+Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Package AWS CLI 2.39.3 from the official Linux installer bundle, pinned
+  by SHA-256 and verified against the AWS CLI Team signing key
+  (FB5D B77F D5C1 18B8 0511 ADA8 A631 0ACC 4672 475C) at build time.

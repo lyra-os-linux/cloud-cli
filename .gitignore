@@ -1,0 +1,6 @@
+*.tar.gz
+*.rpm
+*.zip
+*.sig
+LICENSE.txt
+__pycache__/

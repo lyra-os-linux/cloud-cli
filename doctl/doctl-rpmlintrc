@@ -1,0 +1,6 @@
+# The RPM changelog lives in doctl.changes, filled in by OBS at release time.
+addFilter("E: no-changelogname-tag")
+# doctl is a statically linked Go binary built upstream.
+addFilter("E: statically-linked-binary /usr/bin/doctl")
+addFilter("W: position-independent-executable-suggested /usr/bin/doctl")
+addFilter("E: missing-hash-section /usr/bin/doctl")

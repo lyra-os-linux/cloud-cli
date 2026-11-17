@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Nov 17 15:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Update to AWS CLI 2.40.4; installer bundle and signature pinned by
+  SHA-256, signature verified locally against the AWS CLI Team key.
+  LICENSE.txt is unchanged.
+
+-------------------------------------------------------------------
 Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
 
 - Package AWS CLI 2.39.3 from the official Linux installer bundle, pinned

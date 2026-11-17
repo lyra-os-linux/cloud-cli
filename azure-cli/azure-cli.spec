@@ -1,5 +1,5 @@
 Name:           azure-cli
-Version:        2.91.0
+Version:        2.93.0
 Release:        0
 %global debug_package %{nil}
 %global azdir %{_prefix}/lib64/az

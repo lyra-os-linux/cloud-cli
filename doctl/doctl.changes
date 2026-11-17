@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Nov 17 15:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Update to doctl 2.6.0; release tarball pinned by SHA-256 (matches
+  the upstream checksums file). LICENSE.txt is unchanged.
+
+-------------------------------------------------------------------
 Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
 
 - Package doctl 2.1.0 from the official GitHub release tarball, with

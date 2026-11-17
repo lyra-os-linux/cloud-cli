@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Nov 17 15:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Update to Azure CLI 2.93.0; requirements.lock regenerated with
+  make-wheels.sh --lock 2.93.0 (every wheel pinned by SHA-256).
+
+-------------------------------------------------------------------
 Sun Nov 01 11:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
 
 - Package Azure CLI 2.91.0 from the official PyPI wheels on the system

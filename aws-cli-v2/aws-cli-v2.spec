@@ -1,5 +1,5 @@
 Name:           aws-cli-v2
-Version:        2.40.4
+Version:        2.41.0
 Release:        0
 %global debug_package %{nil}
 # AWS CLI Team signing key, as published in the AWS CLI user guide.

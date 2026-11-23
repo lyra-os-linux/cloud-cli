@@ -2,17 +2,17 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">github.com</param>
-    <param name="path">/digitalocean/doctl/releases/download/v2.6.0/doctl-2.6.0-linux-amd64.tar.gz</param>
+    <param name="path">/digitalocean/doctl/releases/download/v2.7.0/doctl-2.7.0-linux-amd64.tar.gz</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:doctl-2.6.0-linux-amd64.tar.gz</param>
+    <param name="file">_service:download_url:doctl-2.7.0-linux-amd64.tar.gz</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">48a73085bf39b4debe3036380153c01b7b2fee07cc780948c088c8a703c59e40</param>
+    <param name="checksum">1033caac941fe6238aa3b3170ac2651117ab259f2eaaa87a252164ed4df405ee</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">raw.githubusercontent.com</param>
-    <param name="path">/digitalocean/doctl/v2.6.0/LICENSE.txt</param>
+    <param name="path">/digitalocean/doctl/v2.7.0/LICENSE.txt</param>
   </service>
   <service name="verify_file">
     <param name="file">_service:download_url:LICENSE.txt</param>

@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Nov 23 11:20:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
+
+- Update to Google Cloud CLI 594.0.1; versioned archive pinned by
+  SHA-256.
+
+-------------------------------------------------------------------
 Tue Nov 17 15:30:00 UTC 2026 - Lyra OS Release <rodrigo@lyraos.com.br>
 
 - Update to Google Cloud CLI 594.0.0; versioned archive pinned by

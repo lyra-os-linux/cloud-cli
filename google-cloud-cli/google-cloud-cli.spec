@@ -1,5 +1,5 @@
 Name:           google-cloud-cli
-Version:        594.0.0
+Version:        594.0.1
 Release:        0
 %global debug_package %{nil}
 %global sdkdir %{_prefix}/lib64/google-cloud-sdk

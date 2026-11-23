@@ -1,5 +1,5 @@
 Name:           doctl
-Version:        2.6.0
+Version:        2.7.0
 Release:        0
 %global debug_package %{nil}
 Summary:        Official command-line interface for the DigitalOcean API

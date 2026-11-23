@@ -2,11 +2,11 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">dl.google.com</param>
-    <param name="path">/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-594.0.0-linux-x86_64.tar.gz</param>
+    <param name="path">/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-594.0.1-linux-x86_64.tar.gz</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:google-cloud-cli-594.0.0-linux-x86_64.tar.gz</param>
+    <param name="file">_service:download_url:google-cloud-cli-594.0.1-linux-x86_64.tar.gz</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">1f7233537c26bba94a3ea3f9085a60396745eaf44b21b8454fc6fdd15bb6fcde</param>
+    <param name="checksum">8fc798fd0638428551f80277a568112d08afcf9cafd967d1cf39ae0918df2a1d</param>
   </service>
 </services>

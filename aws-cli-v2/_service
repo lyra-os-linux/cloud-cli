@@ -2,27 +2,27 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">awscli.amazonaws.com</param>
-    <param name="path">/awscli-exe-linux-x86_64-2.41.0.zip</param>
+    <param name="path">/awscli-exe-linux-x86_64-2.42.1.zip</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:awscli-exe-linux-x86_64-2.41.0.zip</param>
+    <param name="file">_service:download_url:awscli-exe-linux-x86_64-2.42.1.zip</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">41c0e2d33e30ff34f0fcac8ec2a013d8c3b95100cf7d4bd1007302b7d4f655e5</param>
+    <param name="checksum">ff2631c32c5db291b099600f404bc493454ec66c125ff4604625da90480c1f47</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">awscli.amazonaws.com</param>
-    <param name="path">/awscli-exe-linux-x86_64-2.41.0.zip.sig</param>
+    <param name="path">/awscli-exe-linux-x86_64-2.42.1.zip.sig</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:awscli-exe-linux-x86_64-2.41.0.zip.sig</param>
+    <param name="file">_service:download_url:awscli-exe-linux-x86_64-2.42.1.zip.sig</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">307ded3db584a3e5ba23d1566612a2323c4bbcff682be07208eaa97bf7e227b5</param>
+    <param name="checksum">17cb1d15fc0a5fedfb850401eec2437600b1fb53ae58c521d239726e231a6c5b</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">raw.githubusercontent.com</param>
-    <param name="path">/aws/aws-cli/2.41.0/LICENSE.txt</param>
+    <param name="path">/aws/aws-cli/2.42.1/LICENSE.txt</param>
   </service>
   <service name="verify_file">
     <param name="file">_service:download_url:LICENSE.txt</param>
